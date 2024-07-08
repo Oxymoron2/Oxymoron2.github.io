@@ -5,5 +5,11 @@
 </head>
 <body>
   <h1>Wedding Guest Photo Upload</h1>
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    <label for="photo">Select your photo:</label><br>
+    <input type="file" id="photo" name="photo" accept="image/*">
+    <br><br>
+    <button type="submit">Upload Photo</button>
+  </form>
 </body>
 </html>
